@@ -7,7 +7,7 @@ const Search = () => {
 
   const getWeather = async () => {
     const api_key = 'eb9dea318b3347feb5a111844231602';
-    const api_url = `http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${location}`;
+    const api_url = `https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${location}`;
     if (location) {
       try {
         const res = await fetch(api_url);
