@@ -3,5 +3,5 @@ module.exports = {
     tailwindcss: {},
     autoprefixer: {},
   },
-  watch: true, // Ensure this line is present
+  watch: true, 
 }
